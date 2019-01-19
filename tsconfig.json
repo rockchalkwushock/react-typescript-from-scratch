@@ -20,7 +20,7 @@
     "baseUrl": ".",
     // paths mappings are relative to the baseUrl.
     "paths": {
-      "app/components/*": ["src/components"]
+      "app/components": ["src/components"]
     }
   },
   "include": ["src"]
