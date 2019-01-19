@@ -17,7 +17,11 @@
     // Enable react.
     "jsx": "react",
     // BaseUrl defines the root of the application file structure.
-    "baseUrl": "."
+    "baseUrl": ".",
+    // paths mappings are relative to the baseUrl.
+    "paths": {
+      "app/components/*": ["src/components"]
+    }
   },
   "include": ["src"]
 }

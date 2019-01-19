@@ -35,6 +35,9 @@ module.exports = {
     ],
   },
   resolve: {
+    alias: {
+      'app/components': resolve(__dirname, 'src/components'),
+    },
     extensions: ['*', '.ts', '.tsx', '.mjs', '.js', '.jsx', '.json'],
   },
   plugins: [

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { hot } from 'react-hot-loader/root'
 
-import { Title } from './components'
+import { Title } from 'app/components'
 
 interface Props {
   compiler: string
